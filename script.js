@@ -54,6 +54,11 @@ button.addEventListener("click",()=>{
   .getElementById("hiddenMessage")
   .classList.add("show");
 
+  /* REMOVE MADE BY TEXT */
+  document
+  .getElementById("madeBy")
+  .style.display = "none";
+
   createHearts();
 
 });
