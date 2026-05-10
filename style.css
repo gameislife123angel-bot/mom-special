@@ -8,6 +8,7 @@ body{
   font-family:'Poppins',sans-serif;
   overflow:hidden;
   min-height:100vh;
+
   background:
   linear-gradient(
     135deg,
@@ -17,6 +18,30 @@ body{
   );
 
   color:white;
+}
+
+/* MADE BY TEXT */
+
+.made-by{
+
+  position:absolute;
+
+  top:15px;
+  left:50%;
+
+  transform:translateX(-50%);
+
+  font-size:14px;
+
+  color:#ffffff;
+
+  letter-spacing:1px;
+
+  opacity:0.85;
+
+  z-index:10;
+
+  font-family:'Poppins',sans-serif;
 }
 
 /* STAR CANVAS */
@@ -233,6 +258,11 @@ button:hover{
   .typewriter{
     font-size:1rem;
     line-height:1.8rem;
+  }
+
+  .made-by{
+    font-size:12px;
+    top:10px;
   }
 
 }
